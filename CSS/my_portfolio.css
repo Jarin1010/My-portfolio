@@ -1,7 +1,7 @@
 .Navbar {
     overflow:hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
-    height: 136px;
-    background-color: #004C8C;/* This colors the navbar black */
+    height: 110px;
+    background-color: #313335;/* This colors the navbar black */
     position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
     top: 0; /* This ensures no space is displayed above the navbar */
     width: 100%; /* This makes the navbar span the entire width of the page */
@@ -25,12 +25,17 @@
     animation: movenavText 5.75s;
     letter-spacing: .2vw;
     border-radius: 12px;
-    background-color: #004C8C;
+    background-color: #313335;
     margin: 10px;
     padding: 10px 10px;
     width: 100px;
 
 }
+
+html{
+    background-color: #252222;
+}
+
 .container{
     margin: 75px;
     padding: 50px;
@@ -38,20 +43,40 @@
   
 h1 {
     text-align: left;
-    font-size: 60px;
+    font-size: 95px;
+    color: white;
+    margin-top: 40px;
 }
   
+h2{
+    text-align: left;
+    font-size: 150px;
+    color:#343333;
+    margin: -60px;
+    padding: auto;
+}
+
+h3{
+    text-align: left;
+    font-size: 40px;
+    color:#007EEA;
+    margin-left:30px;
+    padding: .1px;
+}
 
 p {
     text-align: left;
-    font-size: 25px;
+    font-size:30px;
+    color:white;
+    margin-left: 10px;
+    padding: 10px;
 
 }
-.footer a {
+.about_me a {
     float: left; 
     letter-spacing: .2vw;
     border-radius: 12px;
-    background-color: #004C8C;
+    background-color: #313335;
     padding: 10px 20px;
     letter-spacing: right;
     color: white;
@@ -60,10 +85,14 @@ p {
     margin: 30px;
 } 
 
+footer {
+    background-color: #313335;
+}
+
 .profilephoto{
-    border-radius: 40%;
-    width: 250px;
-    height: 375px;
+    border-radius: 10%;
+    width: 350px;
+    height: 600px;
     position: absolute;
     top: 140px;
     right: 75px;
@@ -80,9 +109,10 @@ p {
 
 .logo {
     float: right;
-    width: 50px;
+    width: 119px;
     margin: 40px 8px;
     padding: 10px 32px;
+    font-size: 30px;
 }
 
 .JTLogo {
