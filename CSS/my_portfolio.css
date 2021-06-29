@@ -1,0 +1,98 @@
+.Navbar {
+    overflow:hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
+    height: 136px;
+    background-color: #004C8C;/* This colors the navbar black */
+    position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
+    top: 0; /* This ensures no space is displayed above the navbar */
+    width: 100%; /* This makes the navbar span the entire width of the page */
+    z-index: 1; /*This ensures other elements don't display over the navbar */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NavbarLink a {
+    float: right; /* This specifies that the text floats on the left on the navbar */
+    display: inline-block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
+    color: white; /* This is the font color for text on our navbar */
+    padding: 10px 10px; /* This adds padding around our text */
+    text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
+    font-family: Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
+    font-size: 1.0vw; /* This specifies the font size for text on our navbar */
+    text-align: center; /* This centers the text within its container */
+    position: relative;
+    -webkit-animation: movenavText 5.75s; /* Safari 4.0 - 8.0 */
+    animation: movenavText 5.75s;
+    letter-spacing: .2vw;
+    border-radius: 12px;
+    background-color: #004C8C;
+    margin: 10px;
+    padding: 10px 10px;
+    width: 100px;
+
+}
+.container{
+    margin: 75px;
+    padding: 50px;
+}
+  
+h1 {
+    text-align: left;
+    font-size: 60px;
+}
+  
+
+p {
+    text-align: left;
+    font-size: 25px;
+
+}
+.footer a {
+    float: left; 
+    letter-spacing: .2vw;
+    border-radius: 12px;
+    background-color: #004C8C;
+    padding: 10px 20px;
+    letter-spacing: right;
+    color: white;
+    padding: .5 1vw; /* This adds padding around our text */
+    text-decoration: none;
+    margin: 30px;
+} 
+
+.profilephoto{
+    border-radius: 40%;
+    width: 250px;
+    height: 375px;
+    position: absolute;
+    top: 140px;
+    right: 75px;
+    font-size: 18px;
+    margin: 40px;
+    object-fit: cover;
+    
+} 
+.maphoto{
+ 
+
+ 
+}
+
+.logo {
+    float: right;
+    width: 50px;
+    margin: 40px 8px;
+    padding: 10px 32px;
+}
+
+.JTLogo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 135px;
+   
+}
+.JTLogo{
+     height: 50px;
+    width: 50px;
+}
