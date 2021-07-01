@@ -1,21 +1,30 @@
 .Navbar {
     overflow:hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
     height: 110px;
-    background-color: #313335;/* This colors the navbar black */
     position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
     top: 0; /* This ensures no space is displayed above the navbar */
     width: 100%; /* This makes the navbar span the entire width of the page */
     z-index: 1; /*This ensures other elements don't display over the navbar */
     display: flex;
+    background-color: #636363;
     align-items: center;
     justify-content: space-between;
 }
 
+@keyframes moveNav{
+    from{left:-100vw;}
+    to{left:0vw;}
+}
+
+@keyframes moveText{
+    from{left:-100vw;}
+    to{top:0px;}
+}
+
 .NavbarLink a {
-    float: right; /* This specifies that the text floats on the left on the navbar */
+    float; /* This specifies that the text floats on the left on the navbar */
     display: inline-block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
     color: white; /* This is the font color for text on our navbar */
-    padding: 10px 10px; /* This adds padding around our text */
     text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
     font-family: Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
     font-size: 1.0vw; /* This specifies the font size for text on our navbar */
@@ -25,15 +34,14 @@
     animation: movenavText 5.75s;
     letter-spacing: .2vw;
     border-radius: 12px;
-    background-color: #313335;
-    margin: 10px;
-    padding: 10px 10px;
-    width: 100px;
+    margin: 12px;
+    padding: 200px 200px;
+    width: .75px;
 
 }
 
 html{
-    background-color: #252222;
+    background-color: #454545;
 }
 
 .container{
@@ -51,17 +59,25 @@ h1 {
 h2{
     text-align: left;
     font-size: 150px;
-    color:#343333;
-    margin: -60px;
-    padding: auto;
+    color:#080808;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 h3{
+        text-align: left;
+        font-size: 48px;
+        color:white;
+        margin-bottom: 50px;
+        margin-top: 50px;
+}
+
+h4{
     text-align: left;
-    font-size: 40px;
-    color:#007EEA;
-    margin-left:30px;
-    padding: .1px;
+        font-size: 36px;
+        color:white;
+        margin-bottom: 50px;
+        margin-top: 50px
 }
 
 p {
@@ -73,10 +89,8 @@ p {
 
 }
 .about_me a {
-    float: left; 
     letter-spacing: .2vw;
     border-radius: 12px;
-    background-color: #313335;
     padding: 10px 20px;
     letter-spacing: right;
     color: white;
@@ -86,7 +100,14 @@ p {
 } 
 
 footer {
-    background-color: #313335;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #454545;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    left: 0%;
 }
 
 .profilephoto{
@@ -101,14 +122,39 @@ footer {
     object-fit: cover;
     
 } 
-.maphoto{
- 
-
+.USDept{
+    position: left;
+    width: 400px;
+    height: 300px;
+    font-size: 18px;
+    margin: 10px;
  
 }
 
+.GiveaSock{
+    position: left;
+    width: 400px;
+    height: 320px;
+    font-size: 18px;
+    margin: 10px;
+    padding-top: 20px;
+ 
+}
+
+
+p2{
+    text-align: right;
+    font-size: 30px;
+    
+}
+
+p3{
+    text-align: right;
+    font-size: 30px;
+    
+}
+
 .logo {
-    float: right;
     width: 119px;
     margin: 40px 8px;
     padding: 10px 32px;
