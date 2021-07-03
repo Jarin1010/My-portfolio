@@ -33,39 +33,32 @@ html{
 
 .container{
     margin: 200px;
+    position: relative;
     margin-bottom: 300px;
-    margin-left: 600px;
-    text-align: left !important;
+    margin-left: 550px;
 }
 
 .herocontent{
-    font-size: 50px;
+    font-size: 80px;
     color: white;
+    margin-bottom: 30px;
 }
 
 .designer{
-    font-size: 150px;
+    font-size: 60px;
     color:#080808;
-    position: relative;
-    margin-top: -150px;
 }
 .myself {
     font-size: 25px;
     color: white;
-    text-align: left !important;
-    display: inline;
+    max-width: 400px;
 }
 .language {
     font-size: 25px;
     color: white;
-    
+    max-width: 400px;
 }
-h5{
-    font-size:25px;
-    color: white;
-    text-align: left;
 
-}
 
 
 
@@ -73,18 +66,14 @@ h4{
         text-align: left;
         font-size: 36px;
         color:white;
-        margin-bottom: 200px;
+        margin-bottom: 50px;
         margin-top: 50px
 }
 
-.flexbox{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-}
+
 
 .selectedProjects {
-    display: flex;
+    justify-content: right;
     margin-top: 100px;
 
 }
@@ -125,7 +114,7 @@ footer {
 } 
 
 .USDept{
-    flex:1;
+    position: left;
     width: 450px;
     height: 310px;
     font-size: 18px;
