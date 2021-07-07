@@ -1,95 +1,103 @@
+html {
+    background-color: #767676;
+    font-family: 'Roboto Slab', serif;
+}
+
 .Navbar {
-    overflow:hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
+    overflow: hidden;
+    /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
     height: 110px;
-    position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
-    top: 0; /* This ensures no space is displayed above the navbar */
-    width: 100%; /* This makes the navbar span the entire width of the page */
-    z-index: 1; /*This ensures other elements don't display over the navbar */
+    position: fixed;
+    /* This keeps the navbar at the top of the screen as we scroll */
+    top: 0;
+    /* This ensures no space is displayed above the navbar */
+    width: 100%;
+    /* This makes the navbar span the entire width of the page */
+    z-index: 1;
+    /*This ensures other elements don't display over the navbar */
     display: flex;
     background-color: #767676;
     align-items: center;
     justify-content: space-between;
 }
 
-
-.NavbarLink a{
-    display: inline-block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
-    color: white; /* This is the font color for text on our navbar */
-    text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
+.NavbarLink a {
+    display: inline-block;
+    /* This ensures that other text will be displayed on the same line or row, instead of a new line */
+    color: white;
+    /* This is the font color for text on our navbar */
+    text-decoration: none;
+    /* This gets rid of the underlines under the text on our navbar */
     /*font-family: Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
-    font-family: 'Roboto Slab', serif;
-    text-align: center; /* This centers the text within its container */
+    text-align: center;
+    /* This centers the text within its container */
     position: relative;
-    -webkit-animation: movenavText 5.75s; /* Safari 4.0 - 8.0 */
+    -webkit-animation: movenavText 5.75s;
+    /* Safari 4.0 - 8.0 */
     animation: movenavText 5.75s;
     letter-spacing: .2vw;
     margin-right: 100px;
-    
-
 }
 
-html{
-    background-color: #767676;
-}
-
-.container{
+.container {
     margin: 200px;
     margin-bottom: 300px;
     margin-left: 600px;
     text-align: left !important;
 }
 
-.herocontent{
+.herocontent {
     font-size: 50px;
     color: white;
 }
 
-.designer{
-    font-size: 150px;
-    color:#080808;
+.designer {
+    font-size: 115px;
+    color: #080808;
     position: relative;
     margin-top: -150px;
 }
+
 .myself {
-    font-size: 25px;
+    font-size: 10px;
     color: white;
     text-align: left !important;
     display: inline;
 }
+
 .language {
     font-size: 25px;
     color: white;
-    
 }
-h5{
-    font-size:25px;
+
+h5 {
+    font-size: 25px;
     color: white;
     text-align: left;
-
+    margin-top: 100px;
 }
 
-
-
-h4{
-        text-align: left;
-        font-size: 36px;
-        color:white;
-        margin-bottom: 200px;
-        margin-top: 50px
+h4 {
+    text-align: left;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 200px;
+    margin-top: 50px
 }
 
-.flexbox{
+.flexbox {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
 }
 
-.selectedProjects {
+.Selectedprojects {
     display: flex;
-    margin-top: 100px;
-
+    margin-bottom: 100px;
+    color: white;
+    font-size: 48px;
+    margin-left: 50px;
 }
-
 
 .about_me a {
     letter-spacing: .2vw;
@@ -97,75 +105,87 @@ h4{
     padding: 10px 20px;
     letter-spacing: right;
     color: white;
-    padding: .5 1vw; /* This adds padding around our text */
+    padding: .5 1vw;
+    /* This adds padding around our text */
     text-decoration: none;
     margin: 115px;
-} 
+    margin-left: 50px ;
+}
 
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#424242;
+    background-color: #424242;
     bottom: 0%;
     width: 100%;
     left: 0%;
 }
 
-.profilephoto{
+.profilephoto {
     border-radius: 10%;
     width: 400px;
-    height: 710px;
+    height: 850px;
     position: absolute;
     top: 140px;
     left: 75px;
     font-size: 18px;
     margin: 40px;
+    margin-left:-10px;
     object-fit: cover;
-    
-} 
-
+}
+div.GiveaSock,
 .USDept{
-    flex:1;
+    display:flex;
+}
+.USDept h3{
+    font-size: 40px;
+    text-align: left;
+    color: white;
+}
+.USDept img{
     width: 450px;
     height: 310px;
-    font-size: 18px;
     margin: 10px;
-    padding-top:-250px;
-    
+    padding-top: -250px;
 }
 
-
-.GiveaSock{
+img.GiveaSock{
     position: left;
     width: 490px;
     height: 340px;
-    font-size: 18px;
     margin: 10px;
     padding-top: 50px;
-     
 }
-
-
-#education{
+.GiveaSock h3{
+    font-size: 40px;
+    text-align: left;
+    color: white;
+    margin-top: 100x;
+}
+#education {
     text-align: center;
     font-size: 95px;
     color: white;
     margin-right: 300px;
-
+    margin-left: 110px;
+    margin-top: -10px;
 }
-
-p{
-    text-align: right;
+.donation{
+    margin-top: 60px;
+    margin-left: 70px;
+}
+p {
+    text-align: left;
     font-size: 30px;
     color: white;
-    margin-block-start: -100px;
     padding-left: -100px;
 }
 
-.Seemorework{
+.Seemorework {
     text-align: left;
-    padding-top: 250px;
+    padding-top: 100px;
+    margin-left: 50px;
 }
 
 .logo {
@@ -176,13 +196,31 @@ p{
 }
 
 .JTLogo {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-left: 135px;
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 135px;
 }
-.JTLogo{
-     height: 50px;
+
+.JTLogo {
+    height: 50px;
     width: 50px;
 }
+
+.philosophy{
+font-size: 30px;
+text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    b {
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    b {
+      font-size: 10px;
+    }
+  }
+  
