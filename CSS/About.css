@@ -1,0 +1,36 @@
+p{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 135px;
+}
+
+.philosophy{
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    }
+
+.USDept img{
+    width: 450px;
+    height: 310px;
+    margin: 10px;
+    padding-top: -100px;
+    margin-left: 130px;
+}
+
+.Selectedprojects {
+    margin-bottom: 100px;
+    color: white;
+    font-size: 48px;
+    margin-left: 130px;
+}
+
+.container {
+    width: 5px;
+    height: 10px;
+    display: inline-flex;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    margin-left: 130px;
+}
