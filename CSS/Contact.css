@@ -21,6 +21,10 @@ html {
     justify-content: space-between;
 }
 
+.NavbarLink a:hover {
+    background-color: #CB8080;
+  }
+
 .NavbarLink a {
     display: inline-block;
     /* This ensures that other text will be displayed on the same line or row, instead of a new line */
@@ -99,6 +103,10 @@ footer {
     bottom: 0%;
     width: 100%;
     left: 0%;
+}
+.copyr p{
+    color:#CB8080;
+    margin-right: 120px;
 }
 
 

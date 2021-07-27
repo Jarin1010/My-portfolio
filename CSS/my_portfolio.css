@@ -21,6 +21,9 @@ html {
     justify-content: space-between;
 }
 
+.NavbarLink a:hover {
+    background-color: #CB8080;
+  }
 .NavbarLink a {
     display: inline-block;
     /* This ensures that other text will be displayed on the same line or row, instead of a new line */
@@ -173,12 +176,7 @@ p {
     margin-left: 135px;
 }
 
-.logo {
-    width: 119px;
-    margin: 40px 8px;
-    padding: 10px 32px;
-    font-size: 30px;
-}
+
 
 .JTLogo {
     display: flex;
@@ -225,6 +223,10 @@ text-align: center;
     color:#2B2B2B;
 }
 
+.copyr p{
+    color:#CB8080;
+    margin-right: 120px;
+}
 
 @media screen and (max-width: 768px) {
     .hero{
@@ -242,4 +244,8 @@ div.GiveaSock,
 .USDept{
     flex-direction: column;
 }
+}
+
+.time p{
+    position: center;
 }
